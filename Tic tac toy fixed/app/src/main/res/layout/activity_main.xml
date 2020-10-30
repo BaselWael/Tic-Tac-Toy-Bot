@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99B0A2 "
+        android:gravity="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-36dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C8DDD0">
+
+            <Button
+                android:id="@+id/bu1"
+                android:layout_width="60pt"
+                android:layout_height="50pt"
+                android:gravity="center"
+                android:onClick="AllButton" />
+
+            <Button
+                android:id="@+id/bu2"
+                android:layout_width="60pt"
+                android:layout_height="50pt"
+                android:layout_marginLeft="5pt"
+                android:gravity="center"
+                android:onClick="AllButton" />
+
+            <Button
+                android:id="@+id/bu3"
+                android:layout_width="70pt"
+                android:layout_height="50pt"
+                android:layout_marginLeft="5pt"
+                android:gravity="center"
+                android:onClick="AllButton" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C8DDD0">
+
+            <Button
+                android:id="@+id/bu4"
+                android:layout_width="60pt"
+                android:layout_height="50pt"
+                android:gravity="center"
+                android:onClick="AllButton" />
+
+            <Button
+                android:id="@+id/bu5"
+                android:layout_width="60pt"
+                android:layout_height="50pt"
+                android:layout_marginLeft="5pt"
+                android:gravity="center"
+                android:onClick="AllButton" />
+
+            <Button
+                android:id="@+id/bu6"
+                android:layout_width="70pt"
+                android:layout_height="50pt"
+                android:layout_marginLeft="5pt"
+                android:gravity="center"
+                android:onClick="AllButton" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C8DDD0">
+
+            <Button
+                android:id="@+id/bu7"
+                android:layout_width="60pt"
+                android:layout_height="50pt"
+                android:gravity="center"
+                android:onClick="AllButton" />
+
+            <Button
+                android:id="@+id/bu8"
+                android:layout_width="60pt"
+                android:layout_height="50pt"
+                android:layout_marginLeft="5pt"
+                android:gravity="center"
+                android:onClick="AllButton" />
+
+            <Button
+                android:id="@+id/bu9"
+                android:layout_width="70pt"
+                android:layout_height="50pt"
+                android:layout_marginLeft="5pt"
+                android:gravity="center"
+                android:onClick="AllButton" />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
